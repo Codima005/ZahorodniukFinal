@@ -1,9 +1,13 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,GAAG;CACxB",
+    "mappings": "AEAA,AAAA,QAAQ,CAAA;EACR,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,gBAAgB,EDAA,OAAO;ECCvB,OAAO,EAAE,KAAK;CACb;;ACLD,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,wBAAwB;CACxC",
     "sources": [
         "Index.scss",
-        "_colors.scss"
+        "_colors.scss",
+        "_mobile.scss",
+        "_font.scss",
+        "_tablet.scss",
+        "_desktop.scss"
     ],
     "names": [],
     "file": "Index.css"

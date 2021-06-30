@@ -1,4 +1,11 @@
+.top-bar {
+  height: 40px;
+  width: 100%;
+  background-color: #FF7A00;
+  display: block;
+}
+
 body {
-  background-color: red;
+  font-family: 'Montserrat', sans-serif;
 }
 /*# sourceMappingURL=Index.css.map */
