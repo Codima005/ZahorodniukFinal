@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,GAAG;CACxB",
+    "sources": [
+        "Index.scss",
+        "_colors.scss"
+    ],
+    "names": [],
+    "file": "Index.css"
+}
