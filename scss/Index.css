@@ -4,7 +4,7 @@ body {
 }
 
 .top-bar {
-  height: 200px;
+  height: 68px;
   background-color: #222222;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,22 +12,22 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .top-bar .tb-right img {
-  margin-top: 50px;
-  height: 100px;
+  margin-top: 16.5px;
+  height: 35px;
 }
 
 .top-bar .tb-left img {
-  height: 70px;
-  margin-top: 65px;
+  height: 22px;
+  margin-top: 23px;
 }
 
 .top-main-info {
-  height: 1500px;
+  height: 509px;
   width: 100%;
   background-image: url("../images/allef-vinicius-IvQeAVeJULw-unsplash 1.jpg");
   background-size: cover;
@@ -44,29 +44,33 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 150px;
+  padding-bottom: 55px;
 }
 
-.top-main-info .tmi-barber img {
-  height: 275px;
+.top-main-info .tmi-barer img {
+  height: 93px;
+  width: 290px;
 }
 
 .tmi-info {
-  margin-top: 50px;
+  margin-top: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   display: block;
-  padding-left: 85px;
-  padding-right: 85px;
+  width: 288px;
 }
 
 .tmi-info p {
-  font-weight: 500;
-  font-size: 58px;
-  line-height: 65px;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 22px;
+  display: inline-block;
+  padding-right: 10px;
   color: #FFF1E3;
 }
 
 .tmi-button {
-  margin-top: 50px;
+  margin-top: 16px;
 }
 
 .tmi-button input {
@@ -74,16 +78,15 @@ body {
   border: 1px #FF7A00;
   border-radius: 5px;
   color: #FFF1E3;
-  height: 150px;
-  padding: 50px 24px;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
-  font-size: 50px;
+  font-size: 16px;
   font-weight: 700;
   border: 0px;
-  width: 800px;
+  width: 288px;
+  height: 52px;
   display: block;
 }
 
