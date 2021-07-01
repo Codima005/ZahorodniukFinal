@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./scss/Index.css" />
-    <link rel="stylesheet" href="./scss/reset.css">
+    <link rel="stylesheet" href="./scss/reset.css" />
     <title>Hillel-Barber Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,19 +13,32 @@
     />
   </head>
   <body>
-    <header>
+    <div class="header">
       <div class="top-bar">
-        <div class="tb-left"></div>
+        <div class="tb-left">
+          <img src="./icons/Combined Shape.svg" alt="myimage" />
+        </div>
         <div class="tb-right">
-          <div class="tb-shop"></div>
-          <div class="tb-count"></div>
+          <div class="tb-shop">
+            <img src="./icons/Shopping bag.svg" alt="myimage" />
+          </div>
         </div>
       </div>
+
       <div class="top-main-info">
-        <div class="tmi-barber"></div>
-        <div class="tmi-info"></div>
-        <div class="tmi-button"></div>
+        <div class="tmi-barber">
+          <img src="./icons/Logo.svg" />
+        </div>
+        <div class="tmi-info">
+          <p>
+            Our barbershop is a place of style and mutual understanding in which
+            it is pleasant to spend time.
+          </p>
+        </div>
+        <div class="tmi-button">
+          <input type="submit" value="BOOK NOW" />
+        </div>
       </div>
-    </header>
+    </div>
   </body>
 </html>
