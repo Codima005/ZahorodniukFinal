@@ -1,3 +1,37 @@
-@media screen and (min-width: 780px){
-    
+@media screen and (min-width: 780px) {
+  .top-bar {
+    height: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    .tb-right {
+      img {
+        margin-top: 32.5px;
+        height: 35px;
+      }
+    }
+    .tb-left img {
+      height: 22px;
+      margin-top: 39px;
+    }
+  }
+
+  .top-main-info {
+    background-image: url("../images/test.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 0px;
+    padding-left: 33px;
+    width: 100%;
+  }
+
+  .tmi-barber img {
+    height: 130px;
+    width: 400px;
+  }
+
 }

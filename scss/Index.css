@@ -1,6 +1,11 @@
 body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
+}
+
+.page {
+  width: 100%;
 }
 
 .top-bar {
@@ -47,7 +52,7 @@ body {
   padding-bottom: 55px;
 }
 
-.top-main-info .tmi-barer img {
+.top-main-info .tmi-barber img {
   height: 93px;
   width: 290px;
 }
@@ -92,5 +97,46 @@ body {
 
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 780px) {
+  .top-bar {
+    height: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .top-bar .tb-right img {
+    margin-top: 32.5px;
+    height: 35px;
+  }
+  .top-bar .tb-left img {
+    height: 22px;
+    margin-top: 39px;
+  }
+  .top-main-info {
+    background-image: url("../images/test.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-bottom: 0px;
+    padding-left: 33px;
+    width: 100%;
+  }
+  .tmi-barber img {
+    height: 130px;
+    width: 400px;
+  }
 }
 /*# sourceMappingURL=Index.css.map */
