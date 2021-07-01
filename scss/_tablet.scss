@@ -26,12 +26,38 @@
     align-items: flex-start;
     padding-bottom: 0px;
     padding-left: 33px;
-    width: 100%;
+    .tmi-barber img {
+      margin-top: 50px;
+      height: 130px;
+      width: 400px;
+    }
   }
-
-  .tmi-barber img {
-    height: 130px;
+  .tmi-info {
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
     width: 400px;
+    p {
+      font-weight: 700px;
+      font-size: 21px;
+      line-height: 23px;
+      display: inline-block;
+      padding-right: 0px;
+      color: $light-text;
+      
+    
+      
+   
+    }
   }
-
+  .tmi-button {
+    margin-top: 26px;
+    input {
+      
+      
+      border: 0px;
+      width: 165px;
+    }
+  }
 }
